@@ -1,0 +1,15 @@
+event_id,timestamp,host,username,source_ip,event_type,severity,description
+E001,2026-10-30T09:10:00Z,WS-FIN-014,arun,10.10.5.21,LOGIN_FAILURE,Medium,Failed login attempt
+E002,2026-10-30T09:11:00Z,WS-FIN-014,arun,10.10.5.21,LOGIN_FAILURE,Medium,Failed login attempt
+E003,2026-10-30T09:12:00Z,WS-FIN-014,arun,10.10.5.21,LOGIN_FAILURE,Medium,Failed login attempt
+E004,2026-10-30T09:13:00Z,WS-FIN-014,arun,10.10.5.21,LOGIN_FAILURE,Medium,Failed login attempt
+E005,2026-10-30T09:14:00Z,WS-FIN-014,arun,10.10.5.21,LOGIN_FAILURE,Medium,Failed login attempt
+E006,2026-10-30T09:15:00Z,WS-FIN-014,arun,10.10.5.21,LOGIN_SUCCESS,High,Successful login after repeated failures
+E007,2026-10-30T09:17:00Z,WS-FIN-014,arun,10.10.5.21,PROCESS_EXECUTION,High,PowerShell process started
+E008,2026-10-30T09:19:00Z,WS-FIN-014,arun,10.10.5.21,DISCOVERY,Medium,Executed whoami command
+E009,2026-10-30T09:21:00Z,WS-FIN-014,arun,10.10.5.21,DISCOVERY,Medium,Executed ipconfig command
+E010,2026-10-30T09:24:00Z,SRV-FILE-02,arun,10.10.5.21,NETWORK_CONNECTION,High,Connection to file server
+E011,2026-10-30T09:26:00Z,SRV-FILE-02,arun,10.10.5.21,FILE_ACCESS,High,Access to finance shared folder
+E012,2026-10-30T09:29:00Z,SRV-FILE-02,arun,10.10.5.21,FILE_DOWNLOAD,Critical,Multiple finance files downloaded
+E013,2026-10-30T09:35:00Z,SRV-FILE-02,unknown,10.10.5.21,LOG_DELETION,Critical,Security event logs cleared
+E014,2026-10-30T09:40:00Z,WS-FIN-014,arun,10.10.5.21,LOGOUT,Low,User session not ended
